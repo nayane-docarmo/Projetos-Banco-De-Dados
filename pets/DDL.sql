@@ -7,6 +7,8 @@ GO
 USE boletim;
 GO
 
+
+
 /*Excluir o banco*/
 /*DROP DATABASE boletim;*/
 
@@ -33,13 +35,13 @@ CREATE TABLE trabalho(
 	IdMateria INT FOREIGN KEY REFERENCES materia (IdMateria),
 
 );
-/* Incluímos a coluna esquecida:DataEntrega*/
+/* Incluï¿½mos a coluna esquecida:DataEntrega*/
 ALTER TABLE trabalho ADD DataEntrega DATETIME;
 
 
 
-/* Criamos uma coluna de teste para excluí-la depois */
+/* Criamos uma coluna de teste para excluï¿½-la depois */
 ALTER TABLE trabalho ADD teste DATETIME;
 
---Excluímos a coluna
+--Excluï¿½mos a coluna
 ALTER TABLE trabalho DROP COLUMN teste;
