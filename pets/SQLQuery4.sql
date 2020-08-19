@@ -7,7 +7,7 @@ USE pets;
 /*Criando tabelas*/
 CREATE TABLE clinica(
 	IdClinica INT IDENTITY PRIMARY KEY NOT NULL,
-	Endereço VARCHAR(100),
+	Endereï¿½o VARCHAR(100),
 );
 
 CREATE TABLE veterinario(
@@ -28,8 +28,8 @@ CREATE TABLE dono(
 	IdAnimais INT FOREIGN KEY REFERENCES animais (IdAnimais)
 );
 
-CREATE TABLE raça(
-	IdRaça INT IDENTITY PRIMARY KEY NOT NULL,
+CREATE TABLE raï¿½a(
+	IdRaï¿½a INT IDENTITY PRIMARY KEY NOT NULL,
 	IdAnimais INT FOREIGN KEY REFERENCES animais (IdAnimais),
 	Tipo VARCHAR(50),
 );

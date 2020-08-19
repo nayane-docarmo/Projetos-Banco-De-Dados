@@ -16,7 +16,7 @@ CREATE TABLE album(
 	Id_Artista INT FOREIGN KEY REFERENCES artista (Id_Artista),
 	Nome VARCHAR(100),
 	AnoLancamento CHAR(4),
-	Localização Varchar(150),
+	Localizaï¿½ï¿½o Varchar(150),
 	Duracao DECIMAL,
 	ativo binary,
 );
