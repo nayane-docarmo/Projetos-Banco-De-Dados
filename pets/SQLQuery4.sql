@@ -1,7 +1,7 @@
 /*Criando o banco pets*/
 CREATE DATABASE pets;
 
-/*Criando banco efetivamente*/
+/*Comando para usar o banco criado*/
 USE pets;
 
 /*Criando tabelas*/
